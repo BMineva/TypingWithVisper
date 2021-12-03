@@ -215,7 +215,7 @@ embedded_instances {
   "embedded_components {\n"
   "  id: \"visper\"\n"
   "  type: \"factory\"\n"
-  "  data: \"prototype: \\\"/main/game objects/avatar.go\\\"\\n"
+  "  data: \"prototype: \\\"/main/game objects/visper.go\\\"\\n"
   "load_dynamically: false\\n"
   "\"\n"
   "  position {\n"
