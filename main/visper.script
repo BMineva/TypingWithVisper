@@ -1,6 +1,6 @@
 function init(self)
 	msg.post("camera", "follow")
-	go.animate(".", "position.x", go.PLAYBACK_LOOP_FORWARD, 4000, go.EASING_INOUTQUAD, 10) 
+	--go.animate(".", "position.x", go.PLAYBACK_LOOP_FORWARD, 4000, go.EASING_INOUTQUAD, 10) 
 	--go.animate(".", "position.y", go.PLAYBACK_LOOP_PINGPONG, 500, go.EASING_INOUTQUAD, 10)
 end
 

@@ -1,9 +1,12 @@
 function init(self)
 	p=go.get_position("avatar")
+	coord= {p}
+	print( p)
 	local component = "#platform_1"
-	factory.create(component,p,nil,{nil},0.2)
+	factory.create(component,p1,nil,{nil},0.1)
+	print(p1)
 	--local component = "#platform_2"
-	--factory.create(component)
+	--factory.create(component,p,nil,{nil},0.1)
 end
 
 function final(self)
