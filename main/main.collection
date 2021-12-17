@@ -466,7 +466,7 @@ embedded_instances {
   }
   scale3 {
     x: 0.371
-    y: 0.428
+    y: 0.456
     z: 1.0
   }
 }
@@ -562,6 +562,41 @@ embedded_instances {
   scale3 {
     x: 0.451
     y: 0.47
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "mouse"
+  data: "components {\n"
+  "  id: \"mouse\"\n"
+  "  component: \"/main/mouse.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.006
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.231
+    y: 0.147
     z: 1.0
   }
 }
