@@ -13,17 +13,17 @@ function update(self, dt)
 end
 
 function on_message(self, message_id, message, sender)
-	if message_id == hash("contact_point_response")  and message.other_id == hash("/mouse")then
+	
+end
+
+function on_input(self, action_id, action)
+	if action.x >= 361 and action.x <= 587 and action.y > 319 and action.y < 465 and action_id == hash("click")  and action.pressed then
 		print("playbutton")
-		msg.post("play","disable")
+		msg.post("playbutton","disable")
 		msg.post("settings","disable")
 		msg.post("title","disable")
 		msg.post("exit","disable")
 	end
-end
-
-function on_input(self, action_id, action)
-	
 end
 
 function on_reload(self)
