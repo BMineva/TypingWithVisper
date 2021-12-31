@@ -1,6 +1,6 @@
 components {
   id: "visper"
-  component: "/main/visper.script"
+  component: "/main/scripts/visper.script"
   position {
     x: 0.0
     y: 0.0

@@ -23,6 +23,7 @@ function on_input(self, action_id, action)
 		msg.post("settings","disable")
 		msg.post("title","disable")
 		msg.post("exit","disable")
+		msg.post("/avatar","play")
 	end
 end
 
