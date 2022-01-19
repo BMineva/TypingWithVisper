@@ -24,6 +24,7 @@ function on_input(self, action_id, action)
 		msg.post("title","disable")
 		msg.post("exit","disable")
 		msg.post("/avatar","play")
+		msg.post ("/log factory", "read")
 	end
 end
 
