@@ -1,22 +1,29 @@
 local open = io.open
+-- creates a 2d array/table
 fileContent = {}
 fileContent[1] = {}
 
+-- function to read file (https://stackoverflow.com/questions/11201262/how-to-read-data-from-a-file-in-lua)
 local function read_file(path)
 	local file = open(path, "rb") -- r read mode and b binary mode
 	if not file then return nil end
 	local content = {}
+	--printing to check that the type of the array is correct
 	print(type(content))
-	content = file:read "*l"  -- *a or *all reads the whole file
+	content = file:read "*l"  -- *a or *all reads the whole file *l is one line
+	--splits the line into a 1d array
 	content = mysplit(content, "@")
+	--printing to check that the type of the array is correct
 	print(type(content))
+	--wintin the 1d array slipts again making it a 2d array
 	for i in ipairs(content) do
-		content[i] = mysplit(content[i],",")
+		content[i] = mysplit(content[i],",")       
 	end
 	file:close()
 	return content
 end
--- function to print the line mre clearly
+-- function to print the line more clearly (https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console)
+-- lua uses tables which cannot be read with a normal print(x) statement
  local function dump(o)
 	if type(o) == 'table' then
 		local s = '{ '
@@ -29,7 +36,7 @@ end
 		return tostring(o)
 	end
 end
-
+-- function used on lines 15 and 20 to split (https://stackoverflow.com/questions/1426954/split-string-in-lua?rq=1)
 function mysplit (inputstr, sep)
 	if sep == nil then
 		sep = "%s"
@@ -45,8 +52,10 @@ end
 function on_message(self, message_id, message, sender)
 	if message_id == hash("read") then
 		local fileContent = read_file("difficulty1.txt");
-		print (dump (fileContent))
-		print(type(fileContent[1][2]))
-		print(fileContent[1][2])
+		-- manual tests to make sure the script is doing what it should
+		print (dump (fileContent)) 
+		pprint(fileContent)
+		print(type(fileContent[1][2])) -- string
+		print(fileContent[1][1]) -- t
 	end
 end

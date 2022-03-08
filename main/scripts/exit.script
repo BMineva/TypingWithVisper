@@ -1,35 +1,15 @@
 function init(self)
+	--sends message to game object to take in inputs
 	msg.post(".", "acquire_input_focus")
 end
 
-function final(self)
-	-- Add finalization code here
-	-- Learn more: https://defold.com/manuals/script/
-	-- Remove this function if not needed
-end
-
-function update(self, dt)
-	-- Add update code here
-	-- Learn more: https://defold.com/manuals/script/
-	-- Remove this function if not needed
-end
-
-function on_message(self, message_id, message, sender)
-	-- Add message-handling code here
-	-- Learn more: https://defold.com/manuals/message-passing/
-	-- Remove this function if not needed
-end
 
 function on_input(self, action_id, action)
+	-- if the action recieved is inbetween the specific x and y coordinates
+	-- and the action is a click then use sys.exit to close the program
 	if action.x >= 680 and action.x <= 884 and action.y > 339 and action.y < 454 and action_id == hash("click")  and action.pressed then
 		print("exit")
 		sys.exit(0)
 		
 	end
-end
-
-function on_reload(self)
-	-- Add reload-handling code here
-	-- Learn more: https://defold.com/manuals/hot-reload/
-	-- Remove this function if not needed
 end
