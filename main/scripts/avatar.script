@@ -5,7 +5,7 @@ function init(self)
 end
 
 function on_message(self, message_id, message, sender)
-	if message_id == hash("abcd") then
+	if message_id == hash("spawn") then
 		print("message recieved")
 		character = "#visper"
 		factory.create(character)

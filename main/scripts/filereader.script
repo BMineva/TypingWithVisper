@@ -4,7 +4,7 @@ fileContent = {}
 fileContent[1] = {}
 
 -- function to read file (https://stackoverflow.com/questions/11201262/how-to-read-data-from-a-file-in-lua)
-local function read_file(path)
+function read_file(path)
 	local file = open(path, "rb") -- r read mode and b binary mode
 	if not file then return nil end
 	local content = {}
@@ -22,20 +22,7 @@ local function read_file(path)
 	file:close()
 	return content
 end
--- function to print the line more clearly (https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console)
--- lua uses tables which cannot be read with a normal print(x) statement
- local function dump(o)
-	if type(o) == 'table' then
-		local s = '{ '
-		for k,v in pairs(o) do
-			if type(k) ~= 'number' then k = '"'..k..'"' end
-			s = s .. '['..k..'] = ' .. dump(v) .. ','
-		end
-		return s .. '} '
-	else
-		return tostring(o)
-	end
-end
+
 -- function used on lines 15 and 20 to split (https://stackoverflow.com/questions/1426954/split-string-in-lua?rq=1)
 function mysplit (inputstr, sep)
 	if sep == nil then
@@ -51,11 +38,11 @@ end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash("read") then
-		local fileContent = read_file("difficulty1.txt");
+		fileContent = read_file("difficulty1.txt");
 		-- manual tests to make sure the script is doing what it should
-		print (dump (fileContent)) 
 		pprint(fileContent)
 		print(type(fileContent[1][2])) -- string
 		print(fileContent[1][1]) -- t
+		msg.post ("/log factory", "make")
 	end
 end
