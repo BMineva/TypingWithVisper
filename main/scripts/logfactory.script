@@ -1,28 +1,52 @@
+function log1 (previous,height) 
+	newcoordinate = previous + vmath.vector3(100.0,height,0.0)
+	local component = "#platform_1"
+	factory.create(component,newcoordinate,nil,{nil},0.1)
+	return newcoordinate
+end
 
+function log2 (previous) 
+	newcoordinate = previous + vmath.vector3(75.0,0.0,0.0)
+	local component = "#platform_2"
+	factory.create(component,newcoordinate,nil,{nil},0.1)
+	return newcoordinate
+end
+
+function log3 (previous) 
+	newcoordinate = previous + vmath.vector3(75.0,0.0,0.0)
+	local component = "#platform_3"
+	factory.create(component,newcoordinate,nil,{nil},0.1)
+	return newcoordinate
+end
 
 function on_message(self,message_id, message, sender)
 	-- currently in testing 
 	if message_id == hash("make") then
+		length = (#fileContent)
+		print(length)
 		p=go.get_position("avatar")
+		for i = 1,length,1
+		do
+			p = log1(p, 8)
+			
+			print(i)
+		end
+
 		print("p :")
 		print(p)
 		start=(tonumber(fileContent[1][2]))
 		print("start :")
 		print(start)
-		p1= p + vmath.vector3(start,0.0,0.0)
+		p1 = log1(p,start)
 		print("p1 :")
 		print(p1)
-		p2= p1 + vmath.vector3(75.0,0.0,0.0)
+		p2=log2(p1)
 		print("p2 :")
 		print(p2)
-		p3 = p2 + vmath.vector3(75.0,0.0,0.0)
+		p2=log2(p2)
+		p3= log3(p2)
 		print("p3 :")
 		print(p3)
-		local component = "#platform_1"
-		factory.create(component,p1,nil,{nil},0.1)
-		local component = "#platform_2"
-		factory.create(component,p2,nil,{nil},0.1)
-		local component = "#platform_3"
-		factory.create(component,p3,nil,{nil},0.1)
+
 	end
 end
