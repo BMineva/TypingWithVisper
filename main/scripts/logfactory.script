@@ -19,34 +19,40 @@ function log3 (previous)
 	return newcoordinate
 end
 
+function findWhatLog(currentCoord,i,height)
+	currentCoord = currentCoord + vmath.vector3(space,0.0,0.0)
+	if fileContent[i][3] == "1" then
+		currentCoord = log1(currentCoord,height)
+		print("log1")
+		space = 0
+	elseif fileContent[i][3] == "2" then 
+		currentCoord = log2(currentCoord)
+		print("log2")
+		spcae = 0
+	elseif fileContent[i][3] == "3" then 
+		currentCoord = log3(currentCoord)
+		print("log3")
+		space = 0
+	else 
+		space = space + 75
+		print("space")
+	end
+	return(currentCoord)
+end
+
 function on_message(self,message_id, message, sender)
 	-- currently in testing 
 	if message_id == hash("make") then
 		length = (#fileContent)
 		print(length)
-		p=go.get_position("avatar")
-		for i = 1,length,1
-		do
-			p = log1(p, 8)
-			
+		currentCoord=go.get_position("avatar")
+		space = 0
+		height = 0
+		for i = 1,length,1 do
+				height = fileContent[i][2]
+			currentCoord = findWhatLog(currentCoord,i,height)
 			print(i)
+			print(fileContent[i][1])
 		end
-
-		print("p :")
-		print(p)
-		start=(tonumber(fileContent[1][2]))
-		print("start :")
-		print(start)
-		p1 = log1(p,start)
-		print("p1 :")
-		print(p1)
-		p2=log2(p1)
-		print("p2 :")
-		print(p2)
-		p2=log2(p2)
-		p3= log3(p2)
-		print("p3 :")
-		print(p3)
-
 	end
 end
