@@ -236,8 +236,8 @@ embedded_instances {
 embedded_instances {
   id: "avatar"
   data: "components {\n"
-  "  id: \"visperscript\"\n"
-  "  component: \"/main/scripts/avatar.script\"\n"
+  "  id: \"visper\"\n"
+  "  component: \"/main/scripts/visper.script\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -251,14 +251,16 @@ embedded_instances {
   "  }\n"
   "}\n"
   "embedded_components {\n"
-  "  id: \"visper\"\n"
-  "  type: \"factory\"\n"
-  "  data: \"prototype: \\\"/main/gameobjects/visper.go\\\"\\n"
-  "load_dynamically: false\\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/main/main.atlas\\\"\\n"
+  "default_animation: \\\"avatar\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
   "  position {\n"
   "    x: 0.0\n"
-  "    y: 0.0\n"
+  "    y: 52.356\n"
   "    z: 0.0\n"
   "  }\n"
   "  rotation {\n"
@@ -270,8 +272,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 67.0
-    y: 145.0
+    x: 75.0
+    y: 158.0
     z: 0.005
   }
   rotation {
@@ -282,7 +284,7 @@ embedded_instances {
   }
   scale3 {
     x: 0.239
-    y: 0.191
+    y: 0.224
     z: 1.0
   }
 }
