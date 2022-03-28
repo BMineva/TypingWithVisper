@@ -8,6 +8,6 @@ end
 function on_message(self, message_id, message, sender)
 	if message_id == hash("follow") then 
 		go.set_parent(".", sender) 
-		go.set_position(vmath.vector3(-400, -700, 0))
+		go.set_position(vmath.vector3(-400, -900, 0))
 	end
 end

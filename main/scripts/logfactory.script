@@ -19,11 +19,19 @@ function log3 (previous)
 	return newcoordinate
 end
 
+function qwertyu (previous) 
+	newcoordinate = previous + vmath.vector3(75.0,0.0,0.0)
+	local component = "#qwerty"
+	factory.create(component,newcoordinate,nil,{nil},0.1)
+	return newcoordinate
+end
+
 function findWhatLog(currentCoord,i,height)
 	currentCoord = currentCoord + vmath.vector3(space,0.0,0.0)
 	if fileContent[i][3] == "1" then
 		currentCoord = log1(currentCoord,height)
 		print("log1")
+		print(height)
 		space = 0
 	elseif fileContent[i][3] == "2" then 
 		currentCoord = log2(currentCoord)
@@ -34,8 +42,9 @@ function findWhatLog(currentCoord,i,height)
 		print("log3")
 		space = 0
 	else 
-		space = space + 75
+		--space = space + 75
 		print("space")
+		currentCoord = qwertyu(currentCoord)
 	end
 	return(currentCoord)
 end
@@ -54,5 +63,6 @@ function on_message(self,message_id, message, sender)
 			print(i)
 			print(fileContent[i][1])
 		end
+		msg.post("/avatar"), "stop")
 	end
 end
