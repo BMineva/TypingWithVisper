@@ -42,9 +42,9 @@ function findWhatLog(currentCoord,i,height)
 		print("log3")
 		space = 0
 	else 
-		--space = space + 75
+		space = space + 20
 		print("space")
-		currentCoord = qwertyu(currentCoord)
+		--currentCoord = qwertyu(currentCoord)
 	end
 	return(currentCoord)
 end
@@ -62,7 +62,10 @@ function on_message(self,message_id, message, sender)
 			currentCoord = findWhatLog(currentCoord,i,height)
 			print(i)
 			print(fileContent[i][1])
-		end
-		msg.post("/avatar"), "stop")
+			if i >= length/2 then 
+				msg.post("/avatar","")
+			end
+		end 
+--		msg.post("/avatar"), "stop")
 	end
 end

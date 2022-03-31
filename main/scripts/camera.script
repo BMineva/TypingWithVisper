@@ -4,10 +4,10 @@ function init(self)
 end
 
 -- when the camea recieves a message and the message id is "follow" set the camera to follow whatever
--- sent the message but -400x and -700y away from the centre
+-- sent the message but -400x and -600y away from the centre
 function on_message(self, message_id, message, sender)
 	if message_id == hash("follow") then 
 		go.set_parent(".", sender) 
-		go.set_position(vmath.vector3(-400, -900, 0))
+		go.set_position(vmath.vector3(-400, -600, 0))
 	end
 end
