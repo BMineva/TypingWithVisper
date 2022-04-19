@@ -1,5 +1,5 @@
 function log1 (previous,height) 
-	newcoordinate = previous + vmath.vector3(100.0,height,0.0)
+	newcoordinate = previous + vmath.vector3(75.0,height,0.0)
 	local component = "#platform_1"
 	factory.create(component,newcoordinate,nil,{nil},0.1)
 	return newcoordinate
@@ -19,12 +19,178 @@ function log3 (previous)
 	return newcoordinate
 end
 
-function qwertyu (previous) 
-	newcoordinate = previous + vmath.vector3(75.0,0.0,0.0)
-	local component = "#qwerty"
-	factory.create(component,newcoordinate,nil,{nil},0.1)
-	return newcoordinate
+function a (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#a"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
 end
+function b (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#b"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function c (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#c"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function d (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#d"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function e (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#e"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function f (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#f"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function g (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#g"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function h (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#h"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function i (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#i"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function j (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#j"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function k (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#k"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function l (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#l"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function m (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#m"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function n (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#n"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function o (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#o"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function p (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#p"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function q (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#q"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function r (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#r"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function s (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#s"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function t (previous,height) 
+	lettercoord = previous,height + vmath.vector3(75.0,height,0.0)
+	local component = "#t"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function u (previous,height) 
+	lettercoord = previous,height + vmath.vector3(75.0,height,0.0)
+	local component = "#u"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function v (previous) 
+	lettercoord = previous,height + vmath.vector3(75.0,height,0.0)
+	local component = "#v"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function w (previous) 
+	lettercoord = previous,height + vmath.vector3(75.0,height,0.0)
+	local component = "#w"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function x (previous) 
+	lettercoord = previous,height + vmath.vector3(75.0,height,0.0)
+	local component = "#x"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function y (previous,height) 
+	lettercoord = previous,height + vmath.vector3(75.0,height,0.0)
+	local component = "#y"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function z (previous) 
+	lettercoord = previous,height + vmath.vector3(75.0,height,0.0)
+	local component = "#z"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function space (previous,height) 
+	lettercoord = previous + vmath.vector3(75.0,height,0.0)
+	local component = "#space"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+
+function letters (height)
+	lettercoord = lettercoord + vmath.vector3(space,0.0,0.0)
+	if fileContent[i][0] == "key_a" then
+		lettercoord = a(currentCoord,height)
+		print("letter a")
+		print(height)
+		space = 0
+	end
+end 
 
 function findWhatLog(currentCoord,i,height)
 	currentCoord = currentCoord + vmath.vector3(space,0.0,0.0)
@@ -36,7 +202,7 @@ function findWhatLog(currentCoord,i,height)
 	elseif fileContent[i][3] == "2" then 
 		currentCoord = log2(currentCoord)
 		print("log2")
-		spcae = 0
+		space = 0
 	elseif fileContent[i][3] == "3" then 
 		currentCoord = log3(currentCoord)
 		print("log3")
@@ -52,8 +218,11 @@ end
 function on_message(self,message_id, message, sender)
 	-- currently in testing 
 	if message_id == hash("make") then
-		length = (#fileContent)
+		length = (#fileContent) + 2
+		halflength = length/2
+		print("length")
 		print(length)
+		print(halflength)
 		currentCoord=go.get_position("avatar")
 		space = 0
 		height = 0
@@ -62,9 +231,8 @@ function on_message(self,message_id, message, sender)
 			currentCoord = findWhatLog(currentCoord,i,height)
 			print(i)
 			print(fileContent[i][1])
-			if i >= length/2 then 
-				msg.post("/avatar","")
-			end
+			print(fileContent[i][2])
+		
 		end 
 --		msg.post("/avatar"), "stop")
 	end

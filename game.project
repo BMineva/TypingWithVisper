@@ -15,5 +15,5 @@ input_method = HiddenInputField
 title = Typing With Visper
 
 [sprite]
-max_count = 258
+max_count = 300
 
