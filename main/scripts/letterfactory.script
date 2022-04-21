@@ -1,0 +1,350 @@
+
+function a (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#a"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function b (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#b"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function c (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#c"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function d (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#d"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function e (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#e"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function f (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#f"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function g (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#g"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	print("letter g")
+	print(lettercoord)
+	print("letter g previous")
+	print (previous)
+	return lettercoord
+end
+function h (previous,height) 
+	print(previous)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#h"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function ikey (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#i"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function j (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#j"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function k (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#k"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function l (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#l"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function m (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#m"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function n (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#n"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function o (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#o"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	print("lettero")
+	print(lettercoord)
+	print("letter 0 previous")
+	print (previous)
+	return lettercoord
+end
+function p (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#p"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function q (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#q"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function r (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#r"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function s (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#s"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function t (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#t"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	print(lettercoord)
+	return lettercoord
+end
+function u (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#u"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function v (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#v"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function w (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#w"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function x (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#x"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function y (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#y"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function z (previous,height) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#z"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+function spacekey (previous,height) 
+	print("spacekeyheight")
+	print(height)
+	print("spacekeyprevious")
+	print(previous)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	local component = "#space"
+	factory.create(component,lettercoord,nil,{nil},0.1)
+	return lettercoord
+end
+
+function letters (lettercoord, height,i)
+	if fileContent[i][1] == "key_a" then
+		lettercoord = a(lettercoord,height)
+		print("letter a")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_b" then
+		lettercoord = b(lettercoord,height)
+		print("letter b")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_c" then
+		lettercoord = c(lettercoord,height)
+		print("letter c")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_d" then
+		lettercoord = d(lettercoord,height)
+		print("letter d")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_e" then
+		lettercoord = e(lettercoord,height)
+		print("letter e")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_f" then
+		lettercoord = f(lettercoord,height)
+		print("letter f")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_g" then
+		lettercoord = g(lettercoord,height)
+		print("letter g")
+		print(height)
+
+		return lettercoord
+		
+	elseif fileContent[i][1] == "key_h" then
+		lettercoord = h(lettercoord,height)
+		print("letter h")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_i" then
+		lettercoord = ikey(lettercoord,height)
+		print("letter i")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_j" then
+		lettercoord = j(lettercoord,height)
+		print("letter j")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_k" then
+		lettercoord = k(lettercoord,height)
+		print("letter k")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_l" then
+		lettercoord = l(lettercoord,height)
+		print("letter l")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_m" then
+		lettercoord = m(lettercoord,height)
+		print("letter m")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_n" then
+		lettercoord = n(lettercoord,height)
+		print("letter n")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_o" then
+		lettercoord = o(lettercoord,height)
+		print("letter o")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_p" then
+		lettercoord = p(lettercoord,height)
+		print("letter p")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_q" then
+		lettercoord = q(lettercoord,height)
+		print("letter q")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_r" then
+		lettercoord = r(lettercoord,height)
+		print("letter r")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_s" then
+		lettercoord = s(lettercoord,height)
+		print("letter s")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_t" then
+		lettercoord = t(lettercoord,height)
+		print("letter t")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_u" then
+		lettercoord = u(lettercoord,height)
+		print("letter u")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_j" then
+		lettercoord = j(lettercoord,height)
+		print("letter j")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_v" then
+		lettercoord = v(lettercoord,height)
+		print("letter v")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_w" then
+		lettercoord = w(lettercoord,height)
+		print("letter w")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_x" then
+		lettercoord = x(lettercoord,height)
+		print("letter x")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_y" then
+		lettercoord = y(lettercoord,height)
+		print("letter y")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_z" then
+		lettercoord = z(lettercoord,height)
+		print("letter z")
+		print(height)
+
+		return lettercoord
+	elseif fileContent[i][1] == "key_space" then
+		lettercoord = spacekey(lettercoord,height)
+		print("letter space")
+		print(height)
+
+		return lettercoord
+	end
+end 
