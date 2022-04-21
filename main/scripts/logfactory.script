@@ -39,7 +39,7 @@ function findWhatLog(currentCoord,i,height)
 		height = 0
 		space = 0
 	else 
-		space = space + 25
+		space = space + 40
 		print("space")
 		--currentCoord = qwertyu(currentCoord)
 	end

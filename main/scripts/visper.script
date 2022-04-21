@@ -5,36 +5,30 @@ function init(self)
 	--go.animate(".", "position.y", go.PLAYBACK_LOOP_PINGPONG, 500, go.EASING_INOUTQUAD, 10)
 	self.vel = vmath.vector3()
 	i=1
-	yvalue = 10050
-	xvalue = 5000
-	read = false
+	jumpvalue = vmath.vector3(80.0,130,0.0)
+	walkvalue = vmath.vector3(80.0,0,0.0)
 end
 
 function update(self, dt)
-	local pos = go.get_position() 
-	pos = pos + self.vel * dt 
-	go.set_position(pos) 
-
-	self.vel.x = 0 
-	self.vel.y = 0
+	pos = go.get_position() 
 end
 
 function on_input(self, action_id, action)
-
 	if action_id == hash(fileContent[i][1]) and action.pressed and action_id ~= hash("click") then 
 		print("Correct")
 		i= i+1 
 		if action_id == hash("key_space") then 
-			self.vel.y = yvalue
-			self.vel.x = xvalue
+			add = pos + jumpvalue
+			go.set_position(add)
 		else 
-			self.vel.x = 4000
+			add = pos + walkvalue
+			go.set_position(add)
 		end 
 	elseif action.pressed then 
 		print("Incorrect")
 	elseif i >= 9 then 
-		yvalue = -4000	
-		xvalue = 5500
+		jumpvalue = vmath.vector3(80.0,-130,0.0)
+		walkvalue = vmath.vector3(80.0,0,0.0)
 	end 
 
 end

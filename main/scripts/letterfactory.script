@@ -1,178 +1,226 @@
+extra = 0.0
+extray = 0.0
 
 function a (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#a"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function b (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#b"
+	extra = 0.0
+	extray=0.0
 	factory.create(component,lettercoord,nil,{nil},0.1)
 	return lettercoord
 end
 function c (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#c"
+	extra = 0.0
+	extray=0.0
 	factory.create(component,lettercoord,nil,{nil},0.1)
 	return lettercoord
 end
 function d (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#d"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function e (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#e"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function f (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#f"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function g (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#g"
 	factory.create(component,lettercoord,nil,{nil},0.1)
-	print("letter g")
-	print(lettercoord)
-	print("letter g previous")
-	print (previous)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function h (previous,height) 
 	print(previous)
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#h"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function ikey (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#i"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function j (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#j"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function k (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#k"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function l (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#l"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function m (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#m"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function n (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#n"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function o (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#o"
 	factory.create(component,lettercoord,nil,{nil},0.1)
-	print("lettero")
-	print(lettercoord)
-	print("letter 0 previous")
-	print (previous)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function p (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#p"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function q (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#q"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function r (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#r"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function s (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#s"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
 	return lettercoord
 end
 function t (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#t"
 	factory.create(component,lettercoord,nil,{nil},0.1)
-	print(lettercoord)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function u (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#u"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function v (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#v"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function w (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#w"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function x (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#x"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
 function y (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#y"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
+	
 end
 function z (previous,height) 
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#z"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 0.0
+	extray=0.0
 	return lettercoord
 end
-function spacekey (previous,height) 
-	print("spacekeyheight")
-	print(height)
-	print("spacekeyprevious")
-	print(previous)
-	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(0.0,10,0.0)
+function spacekey (previous,height,i) 
+	lettercoord = previous + vmath.vector3(63.0,height,0.0) + vmath.vector3(extra,extray,0.0)
 	local component = "#space"
 	factory.create(component,lettercoord,nil,{nil},0.1)
+	extra = 35.0
+	if i >= 9 then 
+		extray= -40
+	else 
+		extray= 50
+	end 
+	
 	return lettercoord
 end
 
@@ -341,7 +389,7 @@ function letters (lettercoord, height,i)
 
 		return lettercoord
 	elseif fileContent[i][1] == "key_space" then
-		lettercoord = spacekey(lettercoord,height)
+		lettercoord = spacekey(lettercoord,height,i)
 		print("letter space")
 		print(height)
 
