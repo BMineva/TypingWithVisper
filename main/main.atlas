@@ -43,10 +43,6 @@ images {
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
 images {
-  image: "/assets/images/Untitled.png"
-  sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-}
-images {
   image: "/assets/images/dirt.png"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }

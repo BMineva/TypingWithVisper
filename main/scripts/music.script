@@ -1,4 +1,4 @@
 function init(self)
 	--plays the background music 
-	--sound.play("background#sound")
+	sound.play("background#sound")
 end

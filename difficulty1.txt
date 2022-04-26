@@ -1,5 +1,5 @@
 key_i,0,0@key_space,0,0@key_w,20,1@key_r,20,2@key_i,20,2@key_t,20,2@key_e,20,2@key_space,20,3@key_o,140,1@key_n,140,2@key_space,140,3@key_t,20,1@key_h,20,2@key_e,20,2@key_space,20,3@key_p,0,0@key_a,0,0@key_p,0,0@key_e,0,0@key_r,0
 key_a,0,0@key_p,0,0@key_p,0,0@key_l,0,0@key_e,0,0@key_s,0,0@key_space,0,0@key_a,20,1@key_r,20,2@key_e,20,2@key_space,20,3@key_g,140,1@key_o,140,2@key_o,140,2@key_d,140,2@key_space,140,3@key_t,20,1@key_o,20,2@key_space,20,3@key_e,0,0@key_a,0,0@key_t,0
-key_i,0,0@key_space,0,0@key_s,20,1@key_e,20,2@key_e,20,2@key_space,20,3@key_a,20,1@key_space,20,3@key_d,0,1@key_o,0,0@key_l,0,0@key_p,0,0@key_h,0,0@key_i,0,0@key_n,0,0@key_.,0,0
+key_i,0,0@key_space,0,0@key_s,20,1@key_e,20,2@key_e,20,2@key_space,20,3@key_a,20,1@key_space,20,3@key_d,0,1@key_o,0,0@key_l,0,0@key_p,0,0@key_h,0,0@key_i,0,0@key_n,0,0
 key_i,0,0@key_space,0,0@key_l,20,1@key_i,20,2@key_k,20,2@key_e,20,2@key_space,20,3@key_p,0,0@key_o,0,0@key_p,0,0@key_c,0,0@key_o,0,0@key_r,0,0@key_n,0
 key_t,0,0@key_h,0,0@key_e,0,0@key_space,0,0@key_d,20,1@key_o,20,2@key_g,20,2@key_space,20,3@key_r,120,1@key_u,120,2@key_n,120,2@key_s,120,2@key_space,120,3@key_u,20,1@key_p,20,2@key_space,20,3@key_t,0,1@key_h,0,2@key_e,0,2@key_space,0,3@key_h,0,0@key_i,0,0@key_l,0,0@key_l,0,0

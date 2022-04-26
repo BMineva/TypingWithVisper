@@ -1,13 +1,9 @@
-# Welcome to Defold
+# Welcome to Typing with Visper!
 
-This project was created from the "empty" project template.
+This is the code from my alevel coding project. 
 
-The settings in ["game.project"](defold://open?path=/game.project) are all the default. A bootstrap empty ["main.collection"](defold://open?path=/main/main.collection) is included.
+i chose to develop a platormer style game to help teach children to recognise the keys on a keyborad, after seeing the need in my little brother whenever he wanted to use my laptop
 
-Check out [the documentation pages](https://defold.com/learn) for examples, tutorials, manuals and API docs.
-
-If you run into trouble, help is available in [our forum](https://forum.defold.com).
-
-Happy Defolding!
+If I had more time, or if I did not struggle with the log spawning as much, I would have worked on the milestone 9 and rating a tutorial for milestones 6-8 as well as adding a score feature. My additional goals were too ambitious, and I realised that I needed to not include some in my success criteria. 
 
 ---

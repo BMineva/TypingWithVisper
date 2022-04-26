@@ -41,13 +41,11 @@ function findWhatLog(currentCoord,i,height)
 	else 
 		space = space + 40
 		print("space")
-		--currentCoord = qwertyu(currentCoord)
 	end
 	return(currentCoord)
 end
 
-function on_message(self,message_id, message, sender)
-	-- currently in testing 
+function on_message(self,message_id, message, sender) 
 	if message_id == hash("make") then
 		length = (#fileContent) 
 		halflength = length/2
